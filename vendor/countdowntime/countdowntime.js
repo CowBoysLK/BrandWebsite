@@ -7,13 +7,13 @@
         var defaults = {
           timeZone: "",
           endtimeYear: 0,
-          endtimeMonth: 0,
+          endtimeMonth: 2,
           endtimeDate: 0,
           endtimeHours: 0,
           endtimeMinutes: 0,
           endtimeSeconds: 0,
         }
-
+        debugger;
         var options =  $.extend(defaults, options);
 
         return this.each(function() {
