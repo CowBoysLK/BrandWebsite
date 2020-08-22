@@ -13,13 +13,13 @@
           endtimeMinutes: 0,
           endtimeSeconds: 0,
         }
-        debugger;
+        
         var options =  $.extend(defaults, options);
 
         return this.each(function() {
           var obj = $(this);
           var timeNow = new Date();
-
+          debugger;
           var tZ = options.timeZone; console.log(tZ);
           var endYear = options.endtimeYear;
           var endMonth = options.endtimeMonth;
@@ -36,7 +36,9 @@
           }
 
           if(Date.parse(deadline) < Date.parse(timeNow)) {
-            var deadline = new Date(Date.parse(new Date()) + endDate * 24 * 60 * 60 * 1000 + endHours * 60 * 60 * 1000); 
+           // debugger;
+           // var deadline = new Date(Date.parse('2020-08-20') + endDate * 24 * 60 * 60 * 1000 + endHours * 60 * 60 * 1000); 
+           var deadline = new Date(Date.parse('2020-09-15'));
           }
           
           
