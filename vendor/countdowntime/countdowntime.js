@@ -38,7 +38,7 @@
           if(Date.parse(deadline) < Date.parse(timeNow)) {
            // debugger;
            // var deadline = new Date(Date.parse('2020-08-20') + endDate * 24 * 60 * 60 * 1000 + endHours * 60 * 60 * 1000); 
-           var deadline = new Date(Date.parse('2020-09-15'));
+           var deadline = new Date(Date.parse('2020-10-05'));
           }
           
           
