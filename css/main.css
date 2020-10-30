@@ -332,12 +332,14 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background: #61045f;
+  /* background: #61045f;
   background: -webkit-linear-gradient(bottom, #aa076b, #61045f);
   background: -o-linear-gradient(bottom, #aa076b, #61045f);
   background: -moz-linear-gradient(bottom, #aa076b, #61045f);
   background: linear-gradient(bottom, #aa076b, #61045f);
   opacity: 0.9;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
 }
 
 .overlay1::after {
@@ -533,4 +535,12 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
