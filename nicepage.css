@@ -34052,12 +34052,25 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 110px;
 }
 
+/**** edited by dj ***/
+@keyframes footerAnimate {
+  from {color: black;}
+  to {color: white;}
+}
+
+.u-footer .u-text-1.footer-animation{
+  animation-name: footerAnimate ;
+  animation-duration: 4s;
+}
+/*** end **/
 .u-footer .u-text-1 {
   font-family: Quicksand;
-  animation-duration: 1000ms;
   width: 683px;
   margin: 26px auto;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
+
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;
