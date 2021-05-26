@@ -34065,7 +34065,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*** end **/
 .u-footer .u-text-1 {
   font-family: Quicksand;
-  width: 683px;
+  width: auto;
   margin: 26px auto;
   letter-spacing: 2px;
   font-weight: 700;
@@ -34077,7 +34077,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    width: 683px;
+    width: auto;
   }
 }
 @media (max-width: 991px) {

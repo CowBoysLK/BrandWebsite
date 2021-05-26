@@ -1,4 +1,4 @@
-console.log('sample script');
+// console.log('sample script');
 const observer = new IntersectionObserver(entries => {
   
    entries.forEach(entry => {
