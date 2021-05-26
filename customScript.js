@@ -1,4 +1,6 @@
 console.log('sample script');
+// document.title = 'dinith';
+// console.log(document.title);
 const observer = new IntersectionObserver(entries => {
   
    entries.forEach(entry => {
